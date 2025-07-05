@@ -68,7 +68,7 @@ Scalability: Framework can adapt to more sensor inputs or field data when availa
 2. Trends Identified
 
 CH₄ yield increases with temperature (optimum ~37°C) and is inversely proportional to Palm Oil Fraction
-<img src="MYvsTEMPandPOfrac.png" width="600"/>
+<img src="MYvsTempandPOfrac.png" width="600"/>
 
 
 
