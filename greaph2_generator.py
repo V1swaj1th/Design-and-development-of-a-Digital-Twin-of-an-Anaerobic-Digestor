@@ -7,8 +7,8 @@ import os
 
 # Load Trained Model & Data
 
-model_path = r"C:\Users\viswa\Desktop\IITI\Digestor Project\importanceMODEL\data\trained_model.joblib"
-data_path = r"C:\Users\viswa\Desktop\IITI\Digestor Project\importanceMODEL\data\training_data.csv"
+model_path = r"YOUR_MODEL_PATH"
+data_path = r"TRAINING_DATA_PATH"
 
 model = joblib.load(model_path)
 df = pd.read_csv(data_path)
