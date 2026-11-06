@@ -5,7 +5,7 @@ import os
 
 # Load Trained Model
 
-model_path = r"C:\Users\viswa\Desktop\IITI\Digestor Project\importanceMODEL\data\trained_model.joblib"
+model_path = r"YOUR_MODEL_PATH"
 model = joblib.load(model_path)
 
 
@@ -57,7 +57,7 @@ def predict_methane_yield_cli():
     }])
 
     prediction = model.predict(input_df)[0]
-    print(f"\n✅ Predicted Methane Yield: {round(prediction, 4)} L CH₄ / L reactor volume")
+    print(f"\n Predicted Methane Yield: {round(prediction, 4)} L CH₄ / L reactor volume")
 
 
 # Run CLI
