@@ -1,3 +1,3 @@
 import pandas as pd
-training_data = pd.read_csv(r"C:\Users\viswa\Desktop\IITI\Digestor Project\importanceMODEL\data\training_data.csv")
+training_data = pd.read_csv(r"TRAINING_DATA_PATH")
 print(training_data.columns)
