@@ -155,7 +155,7 @@ for Q in flows:
                             })
 
 df = pd.DataFrame(records)
-output_dir = r"C:\Users\viswa\Desktop\IITI\Digestor Project\importanceMODEL\data"
+output_dir = r"OUTPUT_FILE_PATH
 os.makedirs(output_dir, exist_ok=True)
 df.to_csv(os.path.join(output_dir, "training_data.csv"), index=False)
 df.sample(frac=0.2, random_state=42).to_csv(os.path.join(output_dir, "validation_data.csv"), index=False)
