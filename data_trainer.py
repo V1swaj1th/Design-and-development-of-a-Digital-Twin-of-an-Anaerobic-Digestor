@@ -7,7 +7,7 @@ import os
 
 # Loading Data
 
-data_dir = r"C:\Users\viswa\Desktop\IITI\Digestor Project\importanceMODEL\data"
+data_dir = r"DIRECTORY_PATH"
 training_path = os.path.join(data_dir, "training_data.csv")
 
 df = pd.read_csv(training_path)
