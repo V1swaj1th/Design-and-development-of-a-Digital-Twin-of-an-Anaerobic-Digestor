@@ -6,7 +6,7 @@ import joblib
 import os
 
 
-model_path = r"C:\Users\viswa\Desktop\IITI\Digestor Project\importanceMODEL\data\trained_model.joblib"
+model_path = r"YOUR_MODEL_FILE_PATH"
 model = joblib.load(model_path)
 
 
